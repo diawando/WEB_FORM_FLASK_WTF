@@ -36,7 +36,7 @@
             {{ form.price() }}
          </p>
 
-         {% if fom.price.errors %}
+         {% if form.price.errors %}
                 <ul class="errors">
                     {% for error in form.price.errors %}
                         <li>{{ error }}</li>
